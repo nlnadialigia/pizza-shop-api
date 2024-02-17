@@ -3,23 +3,35 @@
   "module": "src/http/index.ts",
   "type": "module",
   "scripts": {
+    "lint": "eslint --fix *.ts .",
     "dev": "bun --watch src/http/index.ts",
     "build": "bun build src/http/index.ts",
     "start": "NODE_ENV=production bun src/http/index.ts",
-  "generate": "drizzle-kit generate:pg",
+    "generate": "drizzle-kit generate:pg",
+    "migrate": "bun src/db/migrate.ts",
+    "seed": "bun src/db/seed.ts",
+    "studio": "bunx drizzle-kit studio",
     "test": "bun test"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "drizzle-kit": "^0.20.14"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.2",
+    "chalk": "^5.3.0",
     "drizzle-orm": "^0.29.3",
     "elysia": "^0.8.17",
-    "postgres": "^3.4.3"
+    "postgres": "^3.4.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "drizzle-kit": "^0.20.14",
+    "eslint": "latest",
+    "eslint-plugin-drizzle": "^0.2.3",
+    "pg": "^8.11.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

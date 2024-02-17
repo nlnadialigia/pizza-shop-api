@@ -1,5 +1,12 @@
 @baseURL=http://localhost:5555
 
 # @name test
-GET {{baseURL}}
+POST {{baseURL}}/restaurants
 Content-Type: application/json
+
+{
+  "restaurantName": "RocketPizza",
+  "name": "Nadia Ligia",
+  "email": "nl@nl.com",
+  "phone": "123456458"
+}

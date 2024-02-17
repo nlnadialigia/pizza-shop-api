@@ -15,6 +15,20 @@
       "when": 1708127775558,
       "tag": "0001_free_grim_reaper",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1708132253362,
+      "tag": "0002_flaky_satana",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1708132329608,
+      "tag": "0003_last_lightspeed",
+      "breakpoints": true
     }
   ]
 }
