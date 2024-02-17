@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1708127479309,
+      "tag": "0000_tan_titanium_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1708127775558,
+      "tag": "0001_free_grim_reaper",
+      "breakpoints": true
+    }
+  ]
+}

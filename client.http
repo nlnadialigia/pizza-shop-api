@@ -1,0 +1,5 @@
+@baseURL=http://localhost:5555
+
+# @name test
+GET {{baseURL}}
+Content-Type: application/json
