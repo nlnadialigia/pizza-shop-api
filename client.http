@@ -5,8 +5,8 @@ POST {{baseURL}}/restaurants
 Content-Type: application/json
 
 {
-  "restaurantName": "RocketPizza",
-  "name": "Nadia Ligia",
-  "email": "nl@nl.com",
+  "restaurantName": "JajaPizzaria",
+  "managerName": "Maria Fernanda",
+  "email": "mf@nl.com",
   "phone": "123456458"
 }
